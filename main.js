@@ -4,3 +4,8 @@ function tocaSomPom() {
 
 document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
+function tocaSomTim() {
+    document.querySelector('#som_tecla_im').play();
+}
+
+document.querySelector('.tecla_tim').onclick = tocaSomTim;
