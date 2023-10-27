@@ -40,3 +40,9 @@ function TocaSomPsh() {
 
 document.querySelector('.tecla_psh').onclick = TocaSomPsh;
 
+function TocaSomTic() {
+    document.querySelector('#som_tecla_tic').play();
+}
+lash
+document.querySelector('.tecla_tic').onclick = TocaSomTic;
+
