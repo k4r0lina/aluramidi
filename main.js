@@ -28,4 +28,15 @@ function TocaSomSplash() {
 
 document.querySelector('.tecla_splash').onclick = TocaSomSplash;
 
+function TocaSomToim() {
+    document.querySelector('#som_tecla_toim').play();
+}
+
+document.querySelector('.tecla_toim').onclick = TocaSomToim;
+
+function TocaSomPsh() {
+    document.querySelector('#som_tecla_psh').play();
+}
+
+document.querySelector('.tecla_psh').onclick = TocaSomPsh;
 
